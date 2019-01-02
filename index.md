@@ -1,11 +1,7 @@
-# Header 1
+# Portfolio
 
-This is some text
+These are some projects
 
-## Header 2
-
-```python
-# this is a code block
-for i in list:
-print i
-```
+- Project 1
+- Project 2
+- Project 3
