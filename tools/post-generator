@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -e "---\nlayout: post\ntitle: $@\n---" > $(git rev-parse --show-toplevel)/_posts/`date +%Y-%m-%d`-`echo $@ |
+tr "[:upper:]" "[:lower:]" | tr " " "-"`.md
+
