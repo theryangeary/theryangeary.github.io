@@ -4,12 +4,11 @@ title: Working With Multiple Files in Vim
 ---
 
 I was recently asked by another member of [udellug](https://www.lug.udel.edu/)
-about my "top three tips for working with multiple file/large projects in vim".
+about my "top three tips for working with multiple files/large projects in vim".
 Three quickly turned into six as I felt these six topics are a great place to
 start for transitioning from using vim for odds and ends to living in vim and
-taking full advantage of its capabilities. My six tips are to learn about:
-shell commands, buffers, windows, tabs, sessions, and using git inside vim.
-
+taking full advantage of its capabilities. My six tips are about: shell
+commands, buffers, windows, tabs, sessions, and using git inside vim.
 
 ### 1. Shell commands
 

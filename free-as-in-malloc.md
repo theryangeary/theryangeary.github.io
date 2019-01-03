@@ -1,5 +1,7 @@
 {% for post in site.posts %}
-# Post
+# [{{ post.title }}]({{ post.url }})
 
-[Post]({{post.url}})
+{{ post.excerpt }}
+
+[Read more]( {{post.url}} )
 {% endfor %}
