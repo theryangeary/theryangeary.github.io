@@ -64,9 +64,9 @@ Read the help pages for more about these commands.
 
 Buffers are your text, and windows are what shows the text on the screen. You
 can have any number of buffers open, but if you only have one window, you'll
-only be able to see one buffer. Conversely, if you have more than one window,
-you'll be able to see more than one buffer, or alternatively different places
-in the same buffer.
+only be able to see one buffer. On the other hand, if you have more than one
+window, you'll be able to see more than one buffer, or alternatively different
+places in the same buffer.
 
 You'll want to learn how to make splits (turn the current window into two)
 vertically and horizontally, how to move windows, resize windows, close windows,
