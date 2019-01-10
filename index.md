@@ -1,7 +1,9 @@
 # Portfolio
 
-These are some projects
+{% for project in site.projects %}
+## [{{ project.title }}]({{ project.project-url }})
 
-- Project 1
-- Project 2
-- Project 3
+{{ project.content }}
+
+[Learn more]({{ project.project-url }})
+{% endfor %}
