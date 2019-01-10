@@ -5,3 +5,5 @@ show_pages: true
 portfolio: /
 blog: /free-as-in-malloc
 about: /about
+collections:
+  - projects
