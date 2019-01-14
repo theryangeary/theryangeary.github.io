@@ -16,8 +16,8 @@ I used to spend most of my development time in bash, going back and forth
 between entering vim, making an edit, exiting vim, then compiling and running
 my code. It was terrible, but I didn't know any better! As it turns out,
 there's no need to leave vim if you want to run a shell command or two. In
-normal mode, after typing `:` you can add a `!` and everything after it will be
-run as a shell command, so you can `rm -rf / --no-preserve-root` without
+normal mode, after typing `:` you can add a `!` and everything after it will
+be run as a shell command, so you can `rm -rf / --no-preserve-root` without
 leaving vim, if that's what you're into.
 
 Try it out. Open vim and type some of these:
