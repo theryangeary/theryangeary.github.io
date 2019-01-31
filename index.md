@@ -1,25 +1,24 @@
 # Portfolio
 
-{{ site.projects.size }}
-<div style="width: 100%; overflow: hidden;">
-{% for project in site.projects %}
+{% for i in (0..site.projects.size) %}
+  {% assign x = i | times:2 %}
   <div style="float: left; width: 50%">
     <h2>
-      <a href="{{ project.project-url }}">{{ project.title }}</a>
+      <a href="{{ site.projects[x].project-url }}">{{ site.projects[x].title }}</a>
     </h2>
 
     <p>
-      {{ project.content }}
+      {{ site.projects[x].content }}
     </p>
   </div>
-  <div>
+  {% assign x = x | plus:1 %}
+  <div style="float: right; width: 50%">
     <h2>
-      <a href="{{ project.project-url }}">{{ project.title }}</a>
+      <a href="{{ site.projects[x].project-url }}">{{ site.projects[x].title }}</a>
     </h2>
 
     <p>
-      {{ project.content }}
+      {{ site.projects[x].content }}
     </p>
   </div>
 {% endfor %}
-</div>
