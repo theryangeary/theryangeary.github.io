@@ -95,7 +95,9 @@ Not to worry. They planned for this, and the answer to your woes is called a
 session. By running `:mksession filename`, your session will be stored in
 filename and be accessed by starting vim in the style `vim -S filename.vim`
 
-I've just looked into this recently so I'm not an expert but once you've opened a bunch of buffers, windows, and what-have-you it's annoying to have to reopen them next time you start vim. Save it to a session.
+I've just looked into this recently so I'm not an expert but once you've opened
+a bunch of buffers, windows, and what-have-you it's annoying to have to reopen
+them next time you start vim. Save it to a session.
 
 As always, more information can be found by typing `:h session`.
 
