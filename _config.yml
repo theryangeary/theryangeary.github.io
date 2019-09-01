@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 title: Ryan Geary
 description: Computer Engineering Major at the University of Delaware minoring in Cybersecurity and Computer Science. Interested in all things *NIX, free and open source software, secure software, POSIX (non)compliancy, Vim, reverse engineering, i3wm, and more.
 show_pages: true
+resume: /resume.pdf
 portfolio: /
 blog: /free-as-in-malloc
 about: /about
