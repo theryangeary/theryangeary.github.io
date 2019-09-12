@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Custom Thread Libarary
+title: Custom Thread Library
 project-url: https://github.com/theryangeary/ud-threads
 ---
 
