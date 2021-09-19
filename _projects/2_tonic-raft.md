@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Choose
-project-url: https://github.com/theryangeary/choose
+title: tonic-raft
+project-url: https://github.com/theryangeary/tonic-raft
 ---
 
 Rust library implementing the Raft consensus protocol for users to easily
