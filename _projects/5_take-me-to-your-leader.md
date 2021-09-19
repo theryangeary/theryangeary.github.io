@@ -5,6 +5,6 @@ project-url: https://github.com/theryangeary/take-me-to-your-leader
 ---
 
 A Vim plugin for arranging, sorting, and syntax highlighting a group of vim
-leader commands
+leader commands.
 
 <!--vim: tw=80:-->
